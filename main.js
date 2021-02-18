@@ -2,11 +2,43 @@
  * YOUR CODE HERE! *
  *******************/
 
+function yell(Hello) {
+  yell = "string" + "!"
+  return "string" + "!"
+}
+
+function getFirstCharacter = .indexOf("Hello!") {
+  return indexOf[0];
+}
+
+function getLastCharacter() = .indexOf("Hello!") {
+  return indexOf[4];
+
+}
+
+function getOneCharacter("Hello!") {
+  return indexOf[3];
+
+}
+
+function getTwoCharacters("Hello!") {
+  return indexOf[3] + [4];
+
+}
+
+function makeCapitalized("Hello!") {
+  return .makeCapitalized 
+
+}
+
+function yellLouder() {
+
+}
 
 
+function getInitials() {
 
-
-
+}
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
  ********************************************************************/
