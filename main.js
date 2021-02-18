@@ -7,22 +7,22 @@ function yell(str) {
   return str + "!"
 }
 
-function getFirstCharacter = .indexOf("Hello!") {
-  return indexOf[0];
+function getFirstCharacter = ("str") {
+  return str[0]
 }
 
-function getLastCharacter() = .indexOf("Hello!") {
-  return indexOf[4];
-
-}
-
-function getOneCharacter("Hello!") {
-  return indexOf[3];
+function getLastCharacter("str") {
+  return .str[str.length - 1];
 
 }
 
-function getTwoCharacters("Hello!") {
-  return indexOf[3] + [4];
+function getOneCharacter(str, i) {
+  return str[i];
+
+}
+
+function getTwoCharacters("str, i1, i2") {
+  return str[i1] + [i2];
 
 }
 
