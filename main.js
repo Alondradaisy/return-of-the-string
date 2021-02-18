@@ -2,9 +2,9 @@
  * YOUR CODE HERE! *
  *******************/
 
-function yell(Hello) {
-  yell = "string" + "!"
-  return "string" + "!"
+function yell(str) {
+  
+  return str + "!"
 }
 
 function getFirstCharacter = .indexOf("Hello!") {
