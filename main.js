@@ -7,11 +7,11 @@ function yell(str) {
   return str + "!"
 }
 
-function getFirstCharacter = ("str") {
+function getFirstCharacter = (str) {
   return str[0]
 }
 
-function getLastCharacter("str") {
+function getLastCharacter(str) {
   return .str[str.length - 1];
 
 }
@@ -21,23 +21,23 @@ function getOneCharacter(str, i) {
 
 }
 
-function getTwoCharacters("str, i1, i2") {
+function getTwoCharacters(str, i1, i2) {
   return str[i1] + [i2];
 
 }
 
-function makeCapitalized("Hello!") {
-  return .makeCapitalized 
+function makeCapitalized(str) {
+  return str.toUpperCase + "!";
 
 }
 
-function yellLouder() {
-
+function yellLouder(str) {
+return makeCapitalized(str) + "!";
 }
 
 
-function getInitials() {
-
+function getInitials(str) {
+  
 }
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
