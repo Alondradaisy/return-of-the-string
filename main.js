@@ -7,12 +7,12 @@ function yell(str) {
   return str + "!"
 }
 
-function getFirstCharacter = (str) {
+function getFirstCharacter(str) {
   return str[0]
 }
 
 function getLastCharacter(str) {
-  return .str[str.length - 1];
+  return str[str.length - 1];
 
 }
 
@@ -37,7 +37,16 @@ return makeCapitalized(str) + "!";
 
 
 function getInitials(str) {
+  const initials1 = str[0];
+  const spaceIndex = str.indexOf(" ");
+  const initials2 = str[spaceIndex +1];
+
+  return initials1 + "." + initials2 + ".";
   
+}
+// can also write this as a one liner
+function getInitialsAlt(str) {
+  return str[0] + "." + str[str.indexOf(" ") + str[str.spaceIndex +1] + "."];
 }
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
